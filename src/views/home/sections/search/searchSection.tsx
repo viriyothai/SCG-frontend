@@ -17,7 +17,7 @@ const SearchSection: React.FC<restuarantsFnProps> = (props) => {
   const [loading, setIsLoading] = useState<boolean>(false);
 
   // handle input text changed and enter
-  const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState("Bang sue");
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setInputText(e.target.value);
   };
