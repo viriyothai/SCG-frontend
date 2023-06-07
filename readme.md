@@ -6,7 +6,7 @@
 
 - React
 
-## Installation Guided
+## Installation Guide
 
 - clone the project
 - set the back end API URL in /configs/environments.ts
@@ -14,15 +14,14 @@
 
 ## Directory Layout
 
-``
-.
-├── public # contain index.html  
-├── src
-│ ├── configs # to set configuration information
-│ ├── views
-│ ├──├── home # main page to show the list of searched restaurants
-│ ├──├──├── sections # sections in the page
-│ ├──├──├──├── pagination # handle pagination of showing list
-│ ├──├──├──├── search # handle search and call API
-│ ├──├──├──├── show # show the list of searched restaurants
-└── README.md
+    .
+    ├── public # contain index.html  
+    ├── src
+    │  ├── configs # to set configuration information
+    ├── views
+    │  └── home # main page to show the list of searched restaurants
+    │      └── sections # sections in the page
+    │          ├── pagination # handle pagination of showing list
+    │          ├── search # handle search and call API
+    │          └── show # show the list of searched restaurants
+    └──  README.md
