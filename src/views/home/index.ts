@@ -1,0 +1,1 @@
+export { HomeViewController as Home } from '../home/homeViewController';
