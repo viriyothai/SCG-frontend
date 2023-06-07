@@ -24,4 +24,4 @@
     │          ├── pagination # handle pagination of showing list
     │          ├── search # handle search and call API
     │          └── show # show the list of searched restaurants
-    └──  README.md
+    └── README.md
